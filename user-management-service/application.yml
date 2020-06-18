@@ -3,8 +3,8 @@ spring:
     mongodb:
       host: localhost #ec2-35-154-155-195.ap-south-1.compute.amazonaws.com
       port: 27017
-      username: root
-      password: root
+      username: mongo-admin
+      password: mongo-admin
       database: bill-payment
       authentication-database: admin
 server:
