@@ -8,6 +8,6 @@ spring:
       database: bill-payment
       authentication-database: admin
 server:
-  port: 8000
+  #port: 8000
   servlet:
     context-path: /bps
