@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      host: localhost #ec2-35-154-155-195.ap-south-1.compute.amazonaws.com
+      port: 27017
+      username: mongo-admin
+      password: mongo-admin
+      database: category-service-db
+      authentication-database: admin
+server:
+  port: 8006
+  servlet:
+    context-path: /category-service

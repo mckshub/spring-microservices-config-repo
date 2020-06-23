@@ -5,9 +5,9 @@ spring:
       port: 27017
       username: mongo-admin
       password: mongo-admin
-      database: bill-payment
+      database: role-service-db
       authentication-database: admin
 server:
   port: 8000
   servlet:
-    context-path: /bps
+    context-path: /role-service
