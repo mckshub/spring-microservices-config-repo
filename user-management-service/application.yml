@@ -5,8 +5,8 @@ spring:
       port: 27017
       username: mongo-admin
       password: mongo-admin
-      database: category-service-db
+      database: user-service-db
       authentication-database: admin
 server:
   servlet:
-    context-path: /category-service
+    context-path: /user-service

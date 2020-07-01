@@ -8,6 +8,5 @@ spring:
       database: role-service-db
       authentication-database: admin
 server:
-  port: 8000
   servlet:
     context-path: /role-service
