@@ -10,7 +10,7 @@ spring:
       username: mongo-admin
       password: mongo-admin
       database: role-service-db
-      authentication-database: admin234
+      authentication-database: admin2345
 server:
   servlet:
     context-path: /role-service
